@@ -23,7 +23,7 @@ int main() {
 
   printf("\nTesting add_edge. Adding (1,2,3) and (4,5,6) m2 is created only 4 x 2 to test growth. m2 =\n");
   add_edge(m2, 1, 2, 3, 4, 5, 6);
-  print_matrix(edges);
+  print_matrix(m2);
 
   printf("\nTesting ident. m1 =\n");
   ident(m1);
